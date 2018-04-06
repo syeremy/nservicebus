@@ -1,0 +1,300 @@
+﻿2017-02-09 09:10:51.547 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:14:01.461 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:14:01.688 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:14:01.731 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "DESKTOP-JNNT6QV\Roland" /add
+2017-02-09 09:14:01.833 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.851 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.876 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.894 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.909 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.924 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:14:01.937 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.363 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:17:07.543 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:17:07.583 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "DESKTOP-JNNT6QV\Roland" /add
+2017-02-09 09:17:07.657 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.668 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.684 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.701 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.714 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.728 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:17:07.740 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.339 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:19:17.515 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:19:17.607 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:19:17.689 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.701 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.724 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.736 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.751 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.769 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:19:17.793 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:21:44.181 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:44.195 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-02-09 09:21:44.386 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:44.397 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-02-09 09:21:44.586 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:44.597 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-02-09 09:21:44.812 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:44.880 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-02-09 09:21:44.987 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:45.442 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqPeek is now in the armed state
+2017-02-09 09:21:45.398 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:45.496 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:45.774 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:46.423 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:46.778 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:46.824 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:46.869 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:46.903 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:47.430 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:47.802 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:47.840 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:47.888 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:47.923 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:48.448 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:48.821 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:48.855 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:48.911 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:48.967 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:49.461 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:49.852 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:49.872 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:49.932 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:49.986 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:50.478 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:50.868 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:50.922 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:50.946 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:51.008 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:51.524 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:51.885 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:51.931 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:51.964 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:52.041 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:52.550 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:52.899 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:52.957 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:52.975 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:53.056 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:53.573 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:53.922 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:53.965 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:53.994 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:54.087 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:54.593 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:54.932 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:54.977 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:55.025 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:21:55.113 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Messaging.MessageQueueException (0x80004005): Queue handle can no longer be used to receive messages because the queue was deleted. The handle should be closed.
+   at System.Messaging.MessageEnumerator.MoveNext(TimeSpan timeout)
+   at NServiceBus.MessagePump.<InnerProcessMessages>d__6.MoveNext() in C:\BuildAgent\work\3206e2123f54fce4\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 129
+2017-02-09 09:22:06.775 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:22:06.946 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:22:07.021 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:22:09.055 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.082 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.115 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.130 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.149 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.161 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:22:09.174 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.366 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:24:26.531 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:24:26.606 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:24:26.698 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.711 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.733 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.750 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.769 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.786 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:24:26.807 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.150 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:28:51.326 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:28:51.425 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:28:51.510 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.521 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.542 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.555 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.568 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.580 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:28:51.597 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.106 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:41:21.282 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:41:21.350 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:41:21.439 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.451 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.466 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.478 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.493 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.505 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:21.520 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.185 INFO  DefaultFactory Logging to 'C:\Users\Roland\Dropbox\Pluralsight\3-NSBUpdate\Mod3Sagas\Demo\Demo\FireOnWheelsStage5\App_Data\' with level Info
+2017-02-09 09:41:28.336 INFO  NServiceBus.LicenseManager Trial for the Particular Service Platform has been active since 8-2-2017.
+2017-02-09 09:41:28.425 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'DESKTOP-JNNT6QV\Roland' to group 'Performance Monitor Users' because the user is already in group.
+2017-02-09 09:41:28.500 INFO  NServiceBus.QueuePermissions Queue [private$\error] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.514 INFO  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.540 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Timeouts] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.558 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.TimeoutsDispatcher] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.574 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web.Retries] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.588 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2017-02-09 09:41:28.604 INFO  NServiceBus.QueuePermissions Queue [private$\FireOnWheels.Web-uniqueId] is running with [Everyone] and/or [NT AUTHORITY\ANONYMOUS LOGON] permissions. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
