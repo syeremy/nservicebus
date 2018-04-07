@@ -23,7 +23,7 @@ namespace Syeremy.Rest
             var endopointConfiguration = new EndpointConfiguration("elcavernas.queue.orders");
             var transport = endopointConfiguration.UseTransport<RabbitMQTransport>();
             transport.ConnectionString("host=localhost;username=guest;password=guest");
-            transport.UseDirectRoutingTopology();
+            transport.UseConventionalRoutingTopology();
             //transport.UseDurableExchangesAndQueues(true);
             
             endopointConfiguration.UsePersistence<InMemoryPersistence>();

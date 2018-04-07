@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO.Compression;
+using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
 using NServiceBus;
 using NServiceBus.Config;
@@ -8,14 +10,7 @@ namespace Syeremy.Order
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            
-            ASyncMain().GetAwaiter().GetResult();
-        }
-
-        static async Task ASyncMain()
+        static async Task Main(string[] args)
         {
             Console.Title = "El Cavernas";
             LogManager.Use<DefaultFactory>().Level(LogLevel.Info);
@@ -25,7 +20,7 @@ namespace Syeremy.Order
                 var endopointConfiguration = new EndpointConfiguration("elcavernas.queue.orders");
                 var transport = endopointConfiguration.UseTransport<RabbitMQTransport>();
                 transport.ConnectionString("host=localhost;username=guest;password=guest");
-                transport.UseConventionalRoutingTopology()();
+                transport.UseConventionalRoutingTopology();
                 transport.UseDurableExchangesAndQueues(true);
             
                 endopointConfiguration.UsePersistence<InMemoryPersistence>();
@@ -47,6 +42,7 @@ namespace Syeremy.Order
             {
                 Console.WriteLine(e);
             }
+
         }
     }
 }
