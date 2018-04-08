@@ -6,4 +6,5 @@ namespace Syeremy.Messages.Events
     {
         public string OrderId { get; set; }
     }
+    
 }
