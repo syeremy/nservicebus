@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using NServiceBus;
 using NServiceBus.Logging;
-using Syeremy.Messages;
 using Syeremy.Messages.Commands;
 using Syeremy.Messages.Events;
 
@@ -14,6 +14,8 @@ namespace Syeremy.Sales
         public async Task Handle(PlaceOrder message, IMessageHandlerContext context)
         {
             log.Info($"Received PlaceOrder, OrderId = {message.OrderId}");
+            
+            //throw new Exception("BOOM");
 
             var orderPlaced = new OrderPlaced
             {
