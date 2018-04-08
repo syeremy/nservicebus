@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    hostname: "my-rabbit"
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - /Volumes/elCavernas-iSCSI/docker-volumes/rabbitmq:/var/lib/rabbitmq  
+      

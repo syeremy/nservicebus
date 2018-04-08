@@ -3,7 +3,7 @@ using NServiceBus;
 using NServiceBus.Logging;
 using Syeremy.Messages;
 
-namespace Syeremy.ClientUI
+namespace Syeremy.Sales
 {
     public class PlaceOrderHandler : IHandleMessages<PlaceOrder>
     {
