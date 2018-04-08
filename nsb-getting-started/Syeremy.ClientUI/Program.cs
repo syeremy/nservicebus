@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using NServiceBus;
 using NServiceBus.Logging;
 using Syeremy.Messages;
+using Syeremy.Messages.Commands;
 
 namespace Syeremy.ClientUI
 {

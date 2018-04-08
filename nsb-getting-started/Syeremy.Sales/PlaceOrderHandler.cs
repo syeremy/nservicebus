@@ -2,6 +2,8 @@
 using NServiceBus;
 using NServiceBus.Logging;
 using Syeremy.Messages;
+using Syeremy.Messages.Commands;
+using Syeremy.Messages.Events;
 
 namespace Syeremy.Sales
 {
@@ -12,6 +14,13 @@ namespace Syeremy.Sales
         public async Task Handle(PlaceOrder message, IMessageHandlerContext context)
         {
             log.Info($"Received PlaceOrder, OrderId = {message.OrderId}");
+
+            var orderPlaced = new OrderPlaced
+            {
+                OrderId =  message.OrderId
+            };
+
+            await context.Publish(orderPlaced);
         }
     }
 }

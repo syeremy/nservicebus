@@ -1,8 +1,8 @@
 ﻿using NServiceBus;
 
-namespace Syeremy.Messages
+namespace Syeremy.Messages.Events
 {
-    public class PlaceOrder : ICommand
+    public class OrderPlaced : IEvent
     {
         public string OrderId { get; set; }
     }
