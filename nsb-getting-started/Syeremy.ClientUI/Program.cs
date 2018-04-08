@@ -15,6 +15,11 @@ namespace Syeremy.ClientUI
         static async Task Main(string[] args)
         {
             Console.Title = "ClientUI";
+            
+            // -- Change log Level to Debug
+            var loggerDefinition = LogManager.Use<DefaultFactory>();
+            loggerDefinition.Level(LogLevel.Info);
+            // --
 
             var endpointConfiguration = new EndpointConfiguration("ClientUI");
             var transport = endpointConfiguration.UseTransport<LearningTransport>();
