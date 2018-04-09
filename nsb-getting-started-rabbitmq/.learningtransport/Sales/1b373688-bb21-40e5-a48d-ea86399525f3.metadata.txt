@@ -1,0 +1,14 @@
+{
+  "NServiceBus.MessageId": "1e507036-3168-4122-ad05-a8bd00629879",
+  "NServiceBus.MessageIntent": "Send",
+  "NServiceBus.ConversationId": "a9f33785-1e24-4e1c-bcdc-a8bd00629879",
+  "NServiceBus.CorrelationId": "1e507036-3168-4122-ad05-a8bd00629879",
+  "NServiceBus.OriginatingMachine": "Yeremys-MacBook-Pro",
+  "NServiceBus.OriginatingEndpoint": "ClientUI",
+  "$.diagnostics.originating.hostid": "b06e543d683b0742b48e71afd656437e",
+  "NServiceBus.ReplyToAddress": "ClientUI",
+  "NServiceBus.ContentType": "text\/xml",
+  "NServiceBus.EnclosedMessageTypes": "Syeremy.Messages.Commands.PlaceOrder, Syeremy.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "NServiceBus.Version": "7.0.0",
+  "NServiceBus.TimeSent": "2018-04-09 05:58:58:536599 Z"
+}
