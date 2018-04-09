@@ -1,1 +1,0 @@
-<?xml version="1.0"?><PlaceOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.net/Syeremy.Messages.Commands"><OrderId>9824848a-34f4-4a31-bbfe-6ccf2c280031</OrderId></PlaceOrder>
