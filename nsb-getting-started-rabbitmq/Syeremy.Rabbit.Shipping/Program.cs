@@ -14,7 +14,7 @@ namespace Syeremy.Rabbit.Shipping
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.ConnectionString("host=localhost");
             transport.UsePublisherConfirms(true);
-            transport.UseDirectRoutingTopology();
+            transport.UseConventionalRoutingTopology();
 
             var endpointInstance = await Endpoint.Start(endpointConfiguration).ConfigureAwait(false);
 

@@ -20,7 +20,7 @@ namespace Syeremy.Rabbit.Sales
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.ConnectionString("host=localhost");
             transport.UsePublisherConfirms(true);
-            transport.UseDirectRoutingTopology();
+            transport.UseConventionalRoutingTopology();
             
             
             var recoverability = endpointConfiguration.Recoverability();
