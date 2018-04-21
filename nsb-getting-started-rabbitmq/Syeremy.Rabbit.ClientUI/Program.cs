@@ -42,36 +42,76 @@ namespace Syeremy.Rabbit.ClientUI
         {
             while (true)
             {
-                log.Info("Press 'P' to place an order, Press 'C' cancel an order, or 'Q' to quit.");
+                log.Info("Press '1' to place an order by a Gold Insider client");
+                log.Info("Press '2' to place an order by a Gold Standard client");
+                log.Info("Press '3' to place an order by a Silver client");
+                log.Info("Press '4' to cancel an order by a Gold Insider client");
+                log.Info("Press '5' to cancel an order by a Gold Standard client");
+                log.Info("Press '6' to cancel an order by a Silver client");
+                log.Info("Press 'Q' to quit.");
                 var key = Console.ReadKey();
                 Console.WriteLine();
 
                 switch (key.Key)
                 {
-                    case ConsoleKey.P:
-                        // Instantiate the command
-                        var placeOrderCommand = new PlaceOrder
+                    case ConsoleKey.D1:
+                        var command = new PlaceOrder
                         {
-                            OrderId = Guid.NewGuid().ToString()
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "SuperImportantClientLtd"
                         };
-
-                        // Send the command to the local endpoint
-                        log.Info($"Sending PlaceOrder command, OrderId = {placeOrderCommand.OrderId}");
-                        //-- Echange : (AMQP default), Queue : Rabbit.Sales -- No binding needed.
-                        await endpointInstance.Send(placeOrderCommand).ConfigureAwait(false);
-
+                        log.Info($"Sending Gold Insider PlaceOrder command, OrderId = {command.OrderId}");
+                        await endpointInstance.Send(command).ConfigureAwait(false);
                         break;
-                    case ConsoleKey.C:
-                        // Instantiate the command
-                        var cancelOrderCommand = new CancelOrder
+
+                    case ConsoleKey.D2:
+                        var command2 = new PlaceOrder
                         {
-                            OrderId = Guid.NewGuid().ToString()
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "AnotherSuperImportantClientLtd"
                         };
+                        log.Info($"Sending Gold Standard PlaceOrder command, OrderId = {command2.OrderId}");
+                        await endpointInstance.Send(command2).ConfigureAwait(false);
+                        break;
 
-                        // Send the command to the local endpoint
-                        log.Info($"Sending CancelOrder command, OrderId = {cancelOrderCommand.OrderId}");
-                        await endpointInstance.Send(cancelOrderCommand).ConfigureAwait(false);
+                    case ConsoleKey.D3:
+                        var command3 = new PlaceOrder
+                        {
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "NotSoImportantClient"
+                        };
+                        log.Info($"Sending Silver PlaceOrder command, OrderId = {command3.OrderId}");
+                        await endpointInstance.Send(command3).ConfigureAwait(false);
+                        break;
 
+                    case ConsoleKey.D4:
+                        var command4 = new CancelOrder
+                        {
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "SuperImportantClientLtd"
+                        };
+                        log.Info($"Sending Gold Insider CancelOrder command, OrderId = {command4.OrderId}");
+                        await endpointInstance.Send(command4).ConfigureAwait(false);
+                        break;
+
+                    case ConsoleKey.D5:
+                        var command5 = new CancelOrder
+                        {
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "AnotherSuperImportantClientLtd"
+                        };
+                        log.Info($"Sending Gold Standard CancelOrder command, OrderId = {command5.OrderId}");
+                        await endpointInstance.Send(command5).ConfigureAwait(false);
+                        break;
+
+                    case ConsoleKey.D6:
+                        var command6 = new CancelOrder
+                        {
+                            OrderId = Guid.NewGuid().ToString(),
+                            ClientId = "NotSoImportantClient"
+                        };
+                        log.Info($"Sending Silver PlaceOrder command, OrderId = {command6.OrderId}");
+                        await endpointInstance.Send(command6).ConfigureAwait(false);
                         break;
 
                     case ConsoleKey.Q:
