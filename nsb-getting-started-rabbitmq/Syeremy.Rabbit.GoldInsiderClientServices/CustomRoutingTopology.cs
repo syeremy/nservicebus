@@ -27,17 +27,6 @@ namespace Syeremy.Rabbit.GoldInsiderClientServices
                 type = typeof(object);
             }
             
-            //-- TODO: Verify if this is correct, this goes in initialize, but this methods runs before initialize. Initialized does not run at all.
-            if (subscriberName.Equals("Rabbit.GoldInsiderClientServices"))
-            {
-                CreateHeadersExchange(channel, subscriberName);
-
-                var bindingArguments =
-                    new Dictionary<string, object> {{"x-match", "all"}, {"membership", "gold"}, {"insider", "1"}};
-
-                channel.QueueBind(subscriberName, subscriberName, string.Empty, bindingArguments);
-            }
-            // --
 
             SetupTypeSubscriptions(channel, type);
             channel.ExchangeBind(subscriberName, ExchangeName(type), string.Empty);

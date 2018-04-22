@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Data.SqlClient;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using NServiceBus;
 using NServiceBus.Logging;
-using NServiceBus.Persistence.Sql;
 
 namespace Syeremy.Rabbit.Sales
 {
@@ -43,9 +41,21 @@ namespace Syeremy.Rabbit.Sales
                     delayed.TimeIncrease(TimeSpan.FromMinutes(1));
                 });
             
-            var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-            persistence.SqlDialect<SqlDialect.MsSqlServer>();
-            persistence.ConnectionBuilder(() => new SqlConnection(_configuration.GetConnectionString("Nsb-Rabbitmq-Recoverability")));
+//            var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
+//            persistence.SqlDialect<SqlDialect.MsSqlServer>();
+//            persistence.ConnectionBuilder(() => new SqlConnection(_configuration.GetConnectionString("Nsb-Rabbitmq-Recoverability")));
+            
+            var delayedDelivery = transport.DelayedDelivery();
+            //delayedDelivery.DisableTimeoutManager();
+            //delayedDelivery.AllEndpointsSupportDelayedDelivery();
+            
+            
+            endpointConfiguration.UsePersistence<InMemoryPersistence>();
+            //endpointConfiguration.UseSerialization<NewtonsoftSerializer>();
+            endpointConfiguration.SendFailedMessagesTo("error");
+            endpointConfiguration.AuditProcessedMessagesTo("audit");
+            endpointConfiguration.EnableInstallers();
+            
 
             var endpointInstance = await Endpoint.Start(endpointConfiguration).ConfigureAwait(false);
 

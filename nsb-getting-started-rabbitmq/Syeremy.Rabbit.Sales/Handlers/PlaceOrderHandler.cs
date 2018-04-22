@@ -32,7 +32,7 @@ namespace Syeremy.Rabbit.Sales.Handlers
 
             LogTrace(message);
             // This is normally where some business logic would occur
-            throw new Exception("An exception occurred in the handler.");
+            //throw new Exception("An exception occurred in the handler.");
             
             
             var orderPlaced = new OrderPlaced

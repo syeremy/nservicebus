@@ -17,6 +17,12 @@ namespace Syeremy.Rabbit.GoldInsiderClientServices
             transport.UseRoutingTopology(topologyFactory:createDurableExchangesAndQueues => new CustomRoutingTopology(createDurableExchangesAndQueues));
 
 
+            endpointConfiguration.UsePersistence<InMemoryPersistence>();
+            //endpointConfiguration.UseSerialization<NewtonsoftSerializer>();
+            endpointConfiguration.SendFailedMessagesTo("error");
+            endpointConfiguration.AuditProcessedMessagesTo("audit");
+            endpointConfiguration.EnableInstallers();
+
             
             var endpointInstance = await Endpoint.Start(endpointConfiguration).ConfigureAwait(false);
 
